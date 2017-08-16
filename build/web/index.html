@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <title> BLOOD DONATION </title>
+
+<style>    
+.ui { top: 0 !important;
+      height: 90px !important;
+      z-index: 2000;
+      border-top: 4px solid #e42a20;
+      position: absolute;
+      background-color: #fff;
+      width: 100%;
+      border-bottom: 1px solid #CBCBCB;
+      box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.09);
+}
+
+.uibottom {  bottom: 0;
+	         height: 100px;
+	         z-index: 2000;
+             border-top: 1px solid #CBCBCB;
+             position: fixed;
+             background-color: #fff;
+             left: 0 !important;
+             width: 100%;
+             border-bottom: 4px solid #e42a20;
+             margin-top: 50%;
+             box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.9);
+             text-align: center;
+}
+
+.logoo { margin-top: 16px;
+	     transition: 0.3s all;
+	     position: absolute;
+	     left: 25px;
+	     top: 0;
+	     padding: 0;
+} 
+
+a { color: #e42a20;
+    font-size: 16px;
+    
+    line-height: 1.5; 
+}
+
+
+.link { background-image: url(donateblood.jpg); 
+	    width: 197px;
+	    height: 52px;
+	    display: block;
+	    background-size: 197px 52px;
+	    background-position: 0 0;
+	    background-repeat: no-repeat;
+}
+
+.replacement { text-indent: -9999px;
+	           text-transform: capitalize;
+	           display: block;
+}
+
+.utility { margin: 16px 0 0;
+	       transition: 0.3s all;
+	       position: absolute;
+	       right: 20px;
+	       padding: 0;
+	       top: 0;
+}
+
+a.n { text-decoration: none;
+     margin-right: 28px;
+     margin-top: 8px;
+     color: black; 
+     float: right;
+     padding: 6px;
+     font-size: 18px;
+     font-family: ariel;  
+} 
+
+a.n:hover { color: #e42a20;
+            cursor: auto; 
+            border-radius: 5px;
+            border: 2px solid #e42a20;
+}
+
+.navclearfix { content: ".";
+               display: block;
+               height: 0;
+               clear: both;
+               visibility: hidden; 
+               margin: 0;
+               padding: 0;
+               float: right;
+}	
+
+.item { float: left;
+        margin: 0;
+        list-style-type: none; 
+}
+
+.link-icon1 { background-image: url();
+              background-size: 73px 110px;
+              width: 73px;
+              height: 55px; 
+}	
+
+.link-icon2 { background-image: url();
+              background-size: 38px 110px;
+              width: 39px;
+              height: 55px; 
+}	
+
+ul,li { font-size: 16px;
+        font-family: none ;
+        position: relative;
+        color: #4d4d4f; 
+}
+
+.page { min-height: 100%;
+        position: relative;
+        overflow: hidden; 
+}
+
+.banner { text-align: center;
+          display: table;
+          width: 100%;
+          position: relative;
+          z-index: 100;
+}
+
+.bodyy { height: 240px;
+         float: right;
+         margin-top: 86px;
+         width: 938px; }
+
+.form { position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #B21D1D;
+        width: 30%;
+        height: 100%; 
+}
+
+.look { width: 22%;
+	    height: 55%;
+	    position: fixed;
+        background-image: url(tshirt.png);
+        border: 2px solid black;
+        border-radius: 8px;
+        padding: 3% 2.5%;
+        margin-left: 4%;
+        margin-top: 12%;  
+}
+
+.email { padding: 10px 0; 
+	    font-size: 15px; 
+	    border: 2px solid black; 
+	    border-radius: 4px; 
+	    width: 65%;
+	    margin-bottom: 20px; 
+	    text-indent: 10px;
+	    margin-top: 30px;
+	    margin-left: 5px; 
+}
+
+.pass { padding: 10px 0; 
+	    width: 65%; 
+	    font-size: 15px;  
+	    border: 2px solid black;
+	    border-radius: 4px;
+	    margin-bottom: 30px;
+	    text-indent:10px;
+	    margin-left: 5px; 
+}
+
+
+a.register:hover { color: white; } 
+
+
+.mySlides { height: 550px;
+            float: right;
+            margin-top: 0px; }
+
+</style>
+
+<script>
+    function func1(){
+        
+        alert("You can only raise a request after you have logged in");
+        
+        
+    }
+     function func2(){
+        
+        alert("You can only donate after you have logged in");
+        
+        
+    }
+    </script>
+
+
+
+
+</head>
+<body>
+    
+      <div class="bodyy" style="max-width:100%">
+          <img class="mySlides" src="Mapalu.jpg" style="width:100%">
+  <img class="mySlides" src="Kale.jpg" style="width:100%">
+  <img class="mySlides" src="Charlotte.jpg" style="width:100%">
+</div>
+    
+<header class="ui">
+<div class="logoo">
+ <a class="link" href="">
+  <span class="replacement">BLOOD SERVICE
+  </span>
+ </a>
+</div>
+
+
+ <a class="n" href="contactus1.jsp">CONTACT US</a>
+<a class="n" href="aboutus.jsp">ABOUT US</a>
+<a class="n" href="collapse.jsp">BLOOD TIPS</a> 
+<a class="n" href="index.html" onclick="func2()">DONATE BLOOD</a>
+<a class="n" href="index.html" onclick="func1()"  >RAISE A REQUEST</a>
+<a class="n" href="">HOME</a>
+
+</header>
+<div class="bodyy"> 
+</div>
+<div class="form">
+	
+<div class="look" style="color:#B21D1D; text-align: center;"><b> <h2>Waiting for Life..</h2> </b>
+<form action="loginvalidation.jsp" method="post" name="form1">
+<input type="text" name="username" class="email" placeholder="Username" required>
+<input type="password" name="password" class="pass" placeholder="Password" required>
+<input type="submit" class="buton"  value="Login" style="cursor:pointer; font-size: 18px; padding: 4% 5%; background-color:#B21D1D; border:1px solid black; ">
+    </form>
+    <p> <a class="register" href="register.jsp" style="color: black;"> Not registered yet </a> </p>
+   
+
+</div>
+</div>
+  
+    <footer class="uibottom">Disclaimer: All rights reserved <br>
+        <font color="#B21D1D"> <marquee direction="left" behavior="alternate" width="50%"> <h1>Donate BLOOD and be a HERO! </h1></marquee> </font>
+    </footer>
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000);
+  }
+</script>
+</body>
+</html>
